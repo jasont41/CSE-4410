@@ -7,9 +7,12 @@ public class PongPaddleController : MonoBehaviour
     public bool p1;
     public float spd; 
     Rigidbody2D bod;
-
+    public GameObject gameCon;
+    ScoreManager scoring;
     private void Awake()
     {
+        scoring = gameCon.GetComponent<ScoreManager>(); 
+        
         bod = GetComponent<Rigidbody2D>();
     }
 
@@ -38,4 +41,19 @@ public class PongPaddleController : MonoBehaviour
             }
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ball"))
+        {
+            if(p1 == true)
+            {
+                scoring.p1Score++; 
+            }
+            else
+            {
+                scoring.p2Score++; 
+            }
+        }
+    }
 }
+
