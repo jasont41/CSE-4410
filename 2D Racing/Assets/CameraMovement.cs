@@ -13,7 +13,7 @@ public class CameraMovement : MonoBehaviour
     {
 
     }
-    void lateUpdate()
+    void LateUpdate()
     {
         if (transform.position != target.position)
         {
