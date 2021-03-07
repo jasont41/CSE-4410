@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerInput.cs" />
     <Compile Include="Assets\CarMovement.cs" />
+    <Compile Include="Assets\CameraMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

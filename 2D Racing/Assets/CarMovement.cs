@@ -5,9 +5,13 @@ using UnityEngine;
 public class CarMovement : MonoBehaviour
 {
     public float acceleration;
+    public float turnSpeed; 
     public float rotation;
     public float maxSpeed;
-    public float currentSpeed; 
+    public float currentSpeed;
+    public float steeringInput;
+    public float speedInput;
+    public float speed; 
     Rigidbody2D bod;
     private void Awake()
     {
@@ -15,9 +19,10 @@ public class CarMovement : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-            bod.AddForce(Vector2.up * acceleration * Time.deltaTime); 
-        }
+        speedInput = Input.GetAxis("Vertical");
+        steeringInput = Input.GetAxis("Horizontal");
+
+        bod.AddForce(transform.up * acceleration * Time.deltaTime * speedInput);
+        transform.Rotate(0, 0, turnSpeed * steeringInput * Time.deltaTime);
     }
 }
