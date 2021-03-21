@@ -1,0 +1,970 @@
+fileFormatVersion: 2
+guid: 125456739ff00e74e92ae5fe8f521d00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6280740019070435647
+    second: orc_piratess_0
+  - first:
+      213: 2401403919629202537
+    second: orc_piratess_1
+  - first:
+      213: 1068006750174453772
+    second: orc_piratess_2
+  - first:
+      213: 9030710966848174252
+    second: orc_piratess_3
+  - first:
+      213: 2040991647199265780
+    second: orc_piratess_4
+  - first:
+      213: 4668656515109722157
+    second: orc_piratess_5
+  - first:
+      213: -868463593684502609
+    second: orc_piratess_6
+  - first:
+      213: 3502953421453950994
+    second: orc_piratess_7
+  - first:
+      213: -1625244606907264560
+    second: orc_piratess_8
+  - first:
+      213: -811274254721069261
+    second: orc_piratess_9
+  - first:
+      213: 5851914938379566594
+    second: orc_piratess_10
+  - first:
+      213: -1693074749480266570
+    second: orc_piratess_11
+  - first:
+      213: 7700648133136954824
+    second: orc_piratess_12
+  - first:
+      213: 2565998571062717981
+    second: orc_piratess_13
+  - first:
+      213: 7871212072208976266
+    second: orc_piratess_14
+  - first:
+      213: 250942727329376736
+    second: orc_piratess_15
+  - first:
+      213: -6262739294907786745
+    second: orc_piratess_16
+  - first:
+      213: 6784338831072472695
+    second: orc_piratess_17
+  - first:
+      213: -3731343364423278192
+    second: orc_piratess_18
+  - first:
+      213: 9098180721591936847
+    second: orc_piratess_19
+  - first:
+      213: 6664201855815726402
+    second: orc_piratess_20
+  - first:
+      213: 2700802796260393323
+    second: orc_piratess_21
+  - first:
+      213: 5472559846474099660
+    second: orc_piratess_22
+  - first:
+      213: -7723753242533533842
+    second: orc_piratess_23
+  - first:
+      213: 5640937791216529525
+    second: orc_piratess_24
+  - first:
+      213: -971755923937207853
+    second: orc_piratess_25
+  - first:
+      213: 384449520207947421
+    second: orc_piratess_26
+  - first:
+      213: 5416480076317904140
+    second: orc_piratess_27
+  - first:
+      213: -2656708567274593134
+    second: orc_piratess_28
+  - first:
+      213: 5622361293444751805
+    second: orc_piratess_29
+  - first:
+      213: -2348809541328756506
+    second: orc_piratess_30
+  - first:
+      213: -3323973820968619704
+    second: orc_piratess_31
+  - first:
+      213: 7352977702308318678
+    second: orc_piratess_32
+  - first:
+      213: -411244550788295634
+    second: orc_piratess_33
+  - first:
+      213: 1439517121334765121
+    second: orc_piratess_34
+  - first:
+      213: 9047140042267726753
+    second: orc_piratess_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: orc_piratess_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 195
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cef9bcba3456d8a0800000000000000
+      internalID: -6280740019070435647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 195
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964bab74420835120800000000000000
+      internalID: 2401403919629202537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 193
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c002ed11b7252de00800000000000000
+      internalID: 1068006750174453772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 194
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8b53017c7835d70800000000000000
+      internalID: 9030710966848174252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 194
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f30ad8e61f035c10800000000000000
+      internalID: 2040991647199265780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 195
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d289d696d566ac040800000000000000
+      internalID: 4668656515109722157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 193
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7731e76f892f3f0800000000000000
+      internalID: -868463593684502609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 194
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210808ec39dfc9030800000000000000
+      internalID: 3502953421453950994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_8
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 194
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d15c2414a8f179e0800000000000000
+      internalID: -1625244606907264560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 129
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f4ee71d56cdb4f0800000000000000
+      internalID: -811274254721069261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 129
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e7ae5b1ad263150800000000000000
+      internalID: 5851914938379566594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 130
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b49b035c7df088e0800000000000000
+      internalID: -1693074749480266570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 130
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c537e36da23eda60800000000000000
+      internalID: 7700648133136954824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 129
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e6a5aea124c9320800000000000000
+      internalID: 2565998571062717981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 129
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8948cb1da92c3d60800000000000000
+      internalID: 7871212072208976266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_15
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 129
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e96f69b4178b7300800000000000000
+      internalID: 250942727329376736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_16
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 129
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a142eeac74619a0800000000000000
+      internalID: -6262739294907786745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_17
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 129
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ea6fdc830d62e50800000000000000
+      internalID: 6784338831072472695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 66
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0912a84cafa973cc0800000000000000
+      internalID: -3731343364423278192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 66
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f476bcc792b334e70800000000000000
+      internalID: 9098180721591936847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 65
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 245356787400c7c50800000000000000
+      internalID: 6664201855815726402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_21
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 65
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b618b7f65dd2b7520800000000000000
+      internalID: 2700802796260393323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_22
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 65
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccba72d7f2072fb40800000000000000
+      internalID: 5472559846474099660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 66
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67640e1957bfc490800000000000000
+      internalID: -7723753242533533842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_24
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 65
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570b98db803a84e40800000000000000
+      internalID: 5640937791216529525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_25
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 65
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d95751c221a382f0800000000000000
+      internalID: -971755923937207853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_26
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 65
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96601e3dc6d55500800000000000000
+      internalID: 384449520207947421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dc8e18ee33b2b40800000000000000
+      internalID: 5416480076317904140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_28
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2946cd742a9712bd0800000000000000
+      internalID: -2656708567274593134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db12eaecec3a60e40800000000000000
+      internalID: 5622361293444751805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_30
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 2
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e02d0caa2a576fd0800000000000000
+      internalID: -2348809541328756506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_31
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841b776cb6fded1d0800000000000000
+      internalID: -3323973820968619704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd847333460b0660800000000000000
+      internalID: 7352977702308318678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_33
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24d27a8247fa4af0800000000000000
+      internalID: -411244550788295634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_34
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1466049e1313af310800000000000000
+      internalID: 1439517121334765121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: orc_piratess_35
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a394944fe5ed8d70800000000000000
+      internalID: 9047140042267726753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
