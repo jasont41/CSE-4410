@@ -14,7 +14,8 @@ public class TDEnemyController : MonoBehaviour
     public float rotSpd;
     int curWaypoint;
     float distance;
-    public float dmg; 
+    public float dmg;
+    public float moneyDrop; 
 
     bool canMove = true;
     bool hasHurt = false; 
@@ -68,6 +69,11 @@ public class TDEnemyController : MonoBehaviour
         hp -= amt; 
         if(hp <= 0)
         {
+            if (!hasHurt)
+            {
+                cont.GiveMoney(moneyDrop);
+                hasHurt = true; 
+            }
             gameObject.SetActive(false);
         }
     }

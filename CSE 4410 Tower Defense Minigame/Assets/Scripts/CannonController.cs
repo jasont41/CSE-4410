@@ -9,7 +9,8 @@ public class CannonController : MonoBehaviour
     public Transform target;
     public float attackRange;
     float cools;
-    public GameObject bullet; 
+    public GameObject bullet;
+    public float accuracy;
     public void OnEnable()
     {
         GetComponent<CircleCollider2D>().radius = attackRange;
@@ -37,7 +38,7 @@ public class CannonController : MonoBehaviour
     }
     void Shoot()
     {
-        Instantiate(bullet, transform.position, transform.rotation);
+        Instantiate(bullet, transform.position, transform.rotation*Quaternion.Euler(0,0,Random.Range(-accuracy,accuracy)));
         cools = shootSpd; 
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -61,4 +62,5 @@ public class CannonController : MonoBehaviour
             target = null;
         }
     }
+
 }
