@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 175975958}
   - component: {fileID: 175975957}
+  - component: {fileID: 175975959}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -160,13 +161,64 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 175975956}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 882099785}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &175975959
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175975956}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 1
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -7.813031, y: 5.051201}
+      - {x: -7.6066036, y: 0.69484687}
+      - {x: -7.745881, y: -24.894587}
+      - {x: -2.9150019, y: -25.197962}
+      - {x: -3.2199264, y: -25.167461}
+      - {x: 3.5295508, y: -24.106878}
+      - {x: -3.311331, y: -24.096573}
+      - {x: -3.323225, y: -24.685793}
+      - {x: -3.2885852, y: 1.0236703}
+      - {x: 10.389196, y: 0.9849977}
+      - {x: 26.5925, y: 0.84157753}
+      - {x: 25.92996, y: -8.857197}
+      - {x: 26.147608, y: -19.957266}
+      - {x: 6.1422577, y: -19.856375}
+      - {x: 5.9542813, y: -14.111367}
+      - {x: 4.0108523, y: -14.168915}
+      - {x: 4.0130663, y: -19.952496}
+      - {x: 3.9524763, y: -21.983202}
+      - {x: 4.034752, y: -22.562462}
+      - {x: 3.8562734, y: -24.03513}
+      - {x: 3.7811928, y: -24.791672}
+      - {x: 3.9309611, y: -25.057041}
+      - {x: 26.062162, y: -21.386679}
+      - {x: 27.162153, y: -24.697554}
+      - {x: 30.68243, y: 0.92721295}
+      - {x: 1.5297999, y: 3.974391}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -10971,6 +11023,7 @@ GameObject:
   - component: {fileID: 1090150372}
   - component: {fileID: 1090150371}
   - component: {fileID: 1090150369}
+  - component: {fileID: 1090150370}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -10987,7 +11040,7 @@ Transform:
   m_GameObject: {fileID: 1090150367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.055, y: -7.0299997, z: 0}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
+  m_LocalScale: {x: 2.75, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -11012,6 +11065,32 @@ MonoBehaviour:
   steeringInput: 0
   speedInput: 0
   speed: 0
+--- !u!61 &1090150370
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090150367}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.3, y: 0.6}
+    newSize: {x: 0.3, y: 0.6}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3, y: 0.6}
+  m_EdgeRadius: 0
 --- !u!50 &1090150371
 Rigidbody2D:
   serializedVersion: 4
@@ -11073,12 +11152,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 24202dbc90a6f7943aa316c112478545, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c1d1a1ad964a8442c8aa35c85f3d20cf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 0.3, y: 0.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
