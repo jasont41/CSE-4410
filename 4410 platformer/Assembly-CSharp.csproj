@@ -55,9 +55,13 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\MeleeEnemy.cs" />
+    <Compile Include="Assets\EnemyController.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\MeleeCollider.cs" />
+    <Compile Include="Assets\RangedEnemy.cs" />
+    <Compile Include="Assets\BaseballController.cs" />
+    <Compile Include="Assets\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
