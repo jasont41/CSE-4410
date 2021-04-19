@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class EnemyController : MonoBehaviour
 {
-    public float maxHP;
+    public float maxHp;
     protected float hp;
     public float spd;
     public float runSpd;
     public Image healthImage;
     public float chaseRange;
     public float attackRange;
-    public enum enemyStates {move, chase, attack};
-    public enemyStates currentState = enemyStates.move;
+    public enum enemystates { move, chase, attack }
+    public enemystates currentState = enemystates.move;
 
     protected Rigidbody2D bod;
     public LayerMask wallLayer;
@@ -20,55 +21,75 @@ public class EnemyController : MonoBehaviour
     public int direction;
     protected SpriteRenderer rend;
     protected float distance;
-    protected PlayerController player; 
+    protected PlayerController player;
+    protected Animator anim;
+
+    public float timeBetweenAttacks;
+    protected float attackCools;
+
     private void Awake()
     {
         bod = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
-        player = FindObjectOfType<PlayerController>(); 
+        player = FindObjectOfType<PlayerController>();
     }
+
     private void OnEnable()
     {
-        hp = maxHP;
+        hp = maxHp;
         direction = (Random.value > 0.5f) ? 1 : -1;
     }
+
+    private void LateUpdate()
+    {
+        healthImage.gameObject.transform.rotation = Quaternion.identity;
+    }
+
     private void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right * direction * rayLength);
-        rend.flipX = (direction == -1); 
+        rend.flipX = (direction == -1);
+
         switch (currentState)
         {
-            case enemyStates.move:
+            case enemystates.move:
                 Move();
                 break;
-            case enemyStates.chase:
+            case enemystates.chase:
                 Chase();
                 break;
-            case enemyStates.attack:
+            case enemystates.attack:
                 Attack();
                 break;
         }
-        healthImage.fillAmount = Mathf.Lerp(healthImage.fillAmount, hp / maxHP, 10 * Time.deltaTime);
+
+        if (attackCools > 0) attackCools -= Time.deltaTime;
+
+        healthImage.fillAmount = Mathf.Lerp(healthImage.fillAmount, hp / maxHp, 10 * Time.deltaTime);
+
         Debug.DrawRay(transform.position, Vector2.right * direction * rayLength);
+        Debug.DrawRay(transform.position, (Vector2.right * direction) - Vector2.up * rayLength);
+
         if (Application.isEditor)
         {
             if (Input.GetKeyDown(KeyCode.P))
             {
-                direction *= -1; 
+                direction *= -1;
             }
+
             if (Input.GetKeyDown(KeyCode.L))
             {
-                Damage(5f); 
+                Damage(5f);
             }
         }
     }
-    private void LateUpdate()
-    {
-        healthImage.gameObject.transform.rotation = Quaternion.identity; 
-    }
+
     public virtual void Move() { }
     public virtual void Chase() { }
     public virtual void Attack() { }
     public virtual void Damage(float amt) { }
-    public virtual void Die() { } 
+    public virtual void Die() { }
 }
+
+
+
