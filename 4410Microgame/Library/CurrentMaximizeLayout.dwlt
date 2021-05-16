@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 950, y: 713}
-  m_MaxSize: {x: 22005, y: 18063}
+  m_MinSize: {x: 951, y: 713}
+  m_MaxSize: {x: 22006, y: 18063}
   vertical: 1
-  controlID: 16136
+  controlID: 23139
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,10 +135,10 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1307
-  m_MinSize: {x: 950, y: 713}
-  m_MaxSize: {x: 22005, y: 18063}
+  m_MinSize: {x: 951, y: 713}
+  m_MaxSize: {x: 22006, y: 18063}
   vertical: 0
-  controlID: 16137
+  controlID: 23140
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -158,8 +158,8 @@ MonoBehaviour:
     y: 0
     width: 455
     height: 1307
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 5}
   m_Panes:
   - {fileID: 5}
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 474, y: 713}
   m_MaxSize: {x: 14004, y: 18063}
   vertical: 1
-  controlID: 16138
+  controlID: 23141
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,7 +379,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.0031378362, y: 0.7578981, z: -0.0036451288, w: -0.6523566}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -410,7 +410,7 @@ MonoBehaviour:
   m_MinSize: {x: 474, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 16139
+  controlID: 23142
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 16140
+  controlID: 23143
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -595,7 +595,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000007249000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 14b0ffff
     m_LastClickedInstanceID: -20460
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 3af40000f65f0000624700007e620000164500004e5f0000cc65000008680000804a0000000000005e3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
